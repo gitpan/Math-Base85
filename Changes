@@ -1,0 +1,5 @@
+Revision history for Perl extension Math::Base85.
+
+0.1 	Fri Jul 20 17:11:22 PDT 2001
+	- to_base85 and from_base85 work, and can be exported.
+	- $Math::Base85::base85_digits made available to other modules.

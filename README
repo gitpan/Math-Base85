@@ -1,0 +1,15 @@
+========================
+Math::Base85 Version 0.1
+========================
+
+This module handles numbers in base 85, via strings and Math::BigInt.
+For more information, read the module or rfc1924.txt.
+
+The usual installation instructions apply:
+
+	/path/to/perl Makefile.PL
+	make
+	make test
+	make install
+
+$Id: README,v 1.1 2001/07/18 18:25:16 tony Exp $

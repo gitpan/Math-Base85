@@ -1,0 +1,15 @@
+====================
+Math::Base85 License
+====================
+
+This module and all files in this distribution, with the exception
+of rfc1924.txt, are copyright (c) 2001 Tony Monroe <tmonroe+perl@nog.net>.
+All rights reserved.
+
+This module may be redistributed under the same licensing terms as
+Perl itself.
+
+Net::IPv6Addr bears NO WARRANTIES WHATSOEVER, express, implied, or
+otherwise.
+
+$Id$
