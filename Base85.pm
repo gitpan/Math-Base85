@@ -7,12 +7,11 @@ use Carp;
 use Exporter;
 use Math::BigInt qw(:constant);
 
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 @ISA = qw(Math::BigInt);
 @EXPORT = qw();
 @EXPORT_OK = qw(from_base85 to_base85);
-
 
 =head1 NAME
 
@@ -119,6 +118,7 @@ sub to_base85
 	unshift @digits, $d;
 	$num = $q;
     }
+    unshift @digits, '0' unless (@digits);
     return join('', @digits);
 }
 
@@ -134,4 +134,3 @@ perl(1).
 
 1;
 __END__
-# Below is the stub of documentation for your module. You better edit it!
